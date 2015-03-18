@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Thumbs Viewer - Extract thumbnail images from the Thumbs.db, ehthumbs.db, ehthumbs_vista.db, Image.db, Video.db, TVThumb.db, and musicThumbs.db database files.</title>
+		<link rel="stylesheet" href="styles.css">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-30445640-5', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+	<body>
+		<header>
+			<p><a class="header" href="https://thumbsviewer.github.io/">Thumbs Viewer</a></p>
+			<br />
+			<p><a class="button" href="https://github.com/thumbsviewer/thumbsviewer/releases/download/v1.0.1.9/thumbs_viewer.zip">Download Thumbs Viewer</a></p>
+
+			<p>Version 1.0.1.9<br />Released on 8/23/2014</p>
+			<br />
+			<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=B8KT7Z87ECW66&lc=US&item_name=Thumbs%20Viewer&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a><br />Please consider making a donation.<br />Your support is greatly appreciated.</p>
+			<br />
+			<p><a href="https://github.com/thumbsviewer/thumbsviewer">View project on GitHub</a>
+		</header>
+		<section>
+			<h3>About</h3>
+
+			<p>Thumbs Viewer allows you to extract thumbnail images from the Thumbs.db, ehthumbs.db, ehthumbs_vista.db, Image.db, Video.db, TVThumb.db, and musicThumbs.db database files found on various Windows operating systems.</p>
+			
+			<p>Looking to open thumbcache_*.db files? Try my <a href="https://thumbcacheviewer.github.io/">Thumbcache Viewer</a> instead.</p>
+
+			<p><img src="https://sites.google.com/site/thumbsviewer/thumbs_viewer.png"></p>
+
+			<h3>Usage</h3>
+
+			<p>The main menu will allow you to save entries, export entries to a CSV (comma-separated values) file, remove entries from the list (the database is not modified), and map local files to hashed filenames (for databases created by Windows Vista and above).</p>
+
+			<p>To rename a file in the list, click once on a <i>selected</i> list item. An edit box will display to rename the file. Press Enter when you are finished.</p>
+
+			<p>If you press Ctrl and click the Entry Size column, the entries will change from displaying in kilobytes, to simply bytes.</p>
+
+			<p>When an item is selected, an image window will pop up to preview the thumbnail. You can move the image around the window with the mouse or arrow keys. Each arrow key will move the image 1 pixel in that direction. By holding Ctrl and pressing an arrow key, the image will move 5 pixels. By holding Shift and pressing an arrow key, the image will move 25 pixels.</p>
+
+			<p>To center the image in the image window you can either press the Home key, or middle mouse button.</p>
+
+			<p>To scale the image you can press the + or - keys to zoom in or out respectively. If you have a mouse wheel, you can scroll forward to zoom in, or scroll back to zoom out. If you don't have a mouse wheel, you can hold the right mouse button down and click the left mouse button to zoom in, or hold the left mouse button down and click the right mouse button to zoom out. Confused?</p>
+
+			<p>You can also run the program from a command-line and supply the database file you wish to open or save.</p>
+
+			<p>Example to open: thumbs_viewer.exe Thumbs.db<br />Example to save thumbnails: thumbs_viewer.exe -o Output Thumbs.db<br />Example to save a CSV (comma-separated values) file: thumbs_viewer.exe -c example.csv Thumbs.db</p>
+			
+			<h3>Requirements</h3>
+
+			<p>This program requires the Visual C++ 2008 runtime library. If you don't have those files, search the <a href="http://www.microsoft.com">Microsoft</a> site for "Microsoft Visual C++ 2008 Redistributable Package".</p>
+		</section>
+		<footer>
+			<p>Got a question?<br />Email: <a href="mailto:thumbsviewer@gmail.com">thumbsviewer@gmail.com</a></p>
+		</footer>
+	</body>
+</html>
