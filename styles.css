@@ -82,6 +82,13 @@ a.button:active
 	background: -webkit-linear-gradient( top, #0370EA 0%, #008DFD 100% );
 }
 
+img.screenshot
+{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
 header
 {
 	position: fixed;
