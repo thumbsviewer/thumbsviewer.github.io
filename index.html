@@ -13,8 +13,19 @@
 			ga('create', 'UA-30445640-5', 'auto');
 			ga('send', 'pageview');
 		</script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header>
 			<p><a class="header" href="https://thumbsviewer.github.io/">Thumbs Viewer</a></p>
 			<br />
@@ -58,6 +69,12 @@
 			<p>This program requires the Visual C++ 2008 runtime library. If you don't have those files, search the <a href="http://www.microsoft.com">Microsoft</a> site for "Microsoft Visual C++ 2008 Redistributable Package".</p>
 		</section>
 		<footer>
+			<p>
+				<div class="fb-like" data-href="https://thumbsviewer.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div><style type="text/css">.fb-like > span { vertical-align: baseline !important; }</style>
+				<div><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://thumbsviewer.github.io/" data-text="Thumbs Viewer - Extract thumbnail images from the Thumbs.db database files." data-dnt="true">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+				<div class="g-plusone" data-size="medium" data-href="https://thumbsviewer.github.io/"></div>
+			</p>
+
 			<p>Got a question?<br />Email: <a href="mailto:thumbsviewer@gmail.com">thumbsviewer@gmail.com</a></p>
 		</footer>
 	</body>
