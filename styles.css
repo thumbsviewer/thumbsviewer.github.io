@@ -129,7 +129,7 @@ header
 	position: fixed;
 	left: 30px;
 	top: 30px;
-	width: 220px;
+	width: 235px;
 	padding-right: 30px;
 	border-image: linear-gradient( to bottom, rgb( 170, 170, 170 ), rgba( 0, 0, 0, 0 ) ) 1 100%;
 	-webkit-border-image: -webkit-gradient( linear, 0 0, 0 100%, from( rgb( 170, 170, 170 ) ), to( rgba( 0, 0, 0, 0 ) ) ) 1 100%;
@@ -143,7 +143,7 @@ header
 section
 {
 	position: relative;
-	left: 290px;
+	left: 295px;
 	width: 800px;
 	margin: 30px;
 }
@@ -153,10 +153,10 @@ footer
 	position: fixed;
 	left: 30px;
 	bottom: 0px;
-	width: 220px;
+	width: 235px;
 }
 
-@media screen and (max-width: 1159px)
+@media screen and (max-width: 1154px)
 {
 	header, footer
 	{
@@ -179,7 +179,7 @@ footer
 	}
 }
 
-@media screen and (max-height: 555px) and (min-width: 1160px)
+@media screen and (max-height: 555px) and (min-width: 1155px)
 {
 	footer
 	{
