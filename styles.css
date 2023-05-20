@@ -13,6 +13,11 @@ p
 	margin: 0px 0px 14px 0px;
 }
 
+h1
+{
+	margin-top: 0px;
+}
+
 h3
 {
 	margin: 10px 0px 10px 0px;
@@ -28,7 +33,7 @@ h3
 a
 {
 	font-weight: 200;
-	color: #0370EA;
+	color: #0050BC;
 	text-decoration: none;
 }
 
